@@ -16,10 +16,10 @@ Before you begin, ensure you have the following installed:
 
 Clone the repository:
   Download zip and extract
-  cd Expo-assignment
+   :cd Expo-assignment
   
 Install dependencies:
-  npm install
+  : npm install
 
 
 🚀 Running the App
