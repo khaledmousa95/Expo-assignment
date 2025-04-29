@@ -25,6 +25,8 @@ export default function LoginScreen({ navigation }: Props) {
       const response = await fetch(url, {
         method: 'GET',
         headers: { 'Accept-Language': 'ar' },
+        redirect: 'follow', 
+
       });
   
       const responseText = await response.text();

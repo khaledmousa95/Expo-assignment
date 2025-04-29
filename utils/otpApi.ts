@@ -6,7 +6,12 @@ export async function verifyOtp(email: string, otp: string[]): Promise<{ success
   
       const response = await fetch(url, {
         method: 'GET',
-        headers: { 'Accept-Language': 'ar' },
+        headers: {
+          'Accept-Language': 'ar',
+        },
+        redirect: 'follow', 
+      
+        
       });
   
       const responseText = await response.text();
@@ -33,7 +38,12 @@ export async function verifyOtp(email: string, otp: string[]): Promise<{ success
   
       const response = await fetch(url, {
         method: 'GET',
-        headers: { 'Accept-Language': 'ar' },
+        headers: {
+          'Accept-Language': 'ar',
+        },
+        redirect: 'follow', 
+      
+        
       });
   
       const responseText = await response.text();
