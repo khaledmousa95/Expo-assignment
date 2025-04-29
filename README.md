@@ -11,18 +11,22 @@ Before you begin, ensure you have the following installed:
 -  Node.js v16+ 
 -  Expo CLI
 
-   ```bash
+
+
+
+
+   
   npm install -g expo-cli
 
 Clone the repository:
   Download zip and extract
-   :cd Expo-assignment
+  , cd Expo-assignment
   
 Install dependencies:
   : npm install
 
 
-🚀 Running the App
+🚀 Running the App:
 
   npx expo start
 
