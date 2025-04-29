@@ -23,7 +23,8 @@ Clone the repository:
   , cd Expo-assignment
   
 Install dependencies:
-  : npm install
+  : npm install --legacy-peer-deps
+
 
 
 🚀 Running the App:
